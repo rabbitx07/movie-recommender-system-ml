@@ -46,7 +46,7 @@ movies_list = new_df['title'].values
 
 similarity = pickle.load(open('similarity.pkl','rb'))
 
-st.title("Movie Recommender System")
+st.title("🎬 Movie Recommender System")
 
 selected_movie = st.selectbox('Select a movie', movies_list)
 
@@ -79,7 +79,7 @@ if st.button('Recommend'):
 st.markdown("""
 ---
 <div style="text-align:center; color:grey; font-size:14px;">
-🎬 AI Movie Recommender <br>
+ AI Movie Recommender <br>
 Built with <b>Python, Scikit-Learn, Streamlit & TMDB API</b><br><br>
 
 Created by <b>Anshika</b> | 

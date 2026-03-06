@@ -7,8 +7,7 @@ Select a movie and the system recommends similar movies along with their posters
 
 ## 🚀 Live Demo
 
-Streamlit App:
-https://ai-movie-recommender-07.streamlit.app
+Streamlit App: [streamlit@netlify](https://ai-movie-recommender-07.streamlit.app)
 
 ---
 

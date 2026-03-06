@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f104226-3e3b-40f2-915c-eda7e4d4c17e" name="Changes" comment="" />
+    <list default="true" id="2f104226-3e3b-40f2-915c-eda7e4d4c17e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.streamlit/secrets.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +43,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHELLCHECK.PATH": "I do mind",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Rebasing main",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
@@ -63,7 +67,7 @@
       <workItem from="1772694814384" duration="3234000" />
       <workItem from="1772699269066" duration="9815000" />
       <workItem from="1772720048804" duration="9461000" />
-      <workItem from="1772804249371" duration="690000" />
+      <workItem from="1772804249371" duration="4291000" />
     </task>
     <servers />
   </component>

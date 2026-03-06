@@ -4,8 +4,10 @@ import requests
 import os
 import gdown
 
+FILE_ID = "1B-Uymv3K2M473frYGGrQN6e70ta6P9uc"
+
 if not os.path.exists("similarity.pkl"):
-    url = "https://drive.google.com/uc?id=1B-Uymv3K2M473frYGGrQN6e70ta6P9uc"
+    url = f"https://drive.google.com/uc?id={FILE_ID}&confirm=t"
     gdown.download(url, "similarity.pkl", quiet=False)
 api_key = st.secrets["TMDB_API_KEY"]
 
@@ -69,3 +71,16 @@ if st.button('Recommend'):
     with col5:
         st.text(names[4])
         st.image(posters[4])
+
+st.markdown("""
+---
+<div style="text-align:center; color:grey; font-size:14px;">
+🎬 AI Movie Recommender <br>
+Built with <b>Python, Scikit-Learn, Streamlit & TMDB API</b><br><br>
+
+Created by <b>Anshika</b> | 
+<a href="https://github.com/rabbitx07/movie-recommender-system-ml" target="_blank">
+GitHub Repository
+</a>
+</div>
+""", unsafe_allow_html=True)
